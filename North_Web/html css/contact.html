@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width=device-width, initial-scale=1">
+        <meta charset="utf-8" />
+         <link rel="stylesheet" href="contact_css.css" />
+         <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
+         
+    </head>
+    
+    <body class="container">
+        
+        <header class="row">
+        <img class="logo" src="./images_contact/logo.png">
+        <img class="antoine" src="images_contact/antoine.png">
+        <nav>
+        <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Devis</a></li>
+            <li><a href="#">Nos Projet</a></li>
+            <li><a href="#">Contact</a></li>
+          
+        </ul>
+        </nav>
+        </header>
+        
+        
+        
+        <article class=" banniere " >
+            <h4 class="nongras"><br />Vous souhaitez nous contacter ? </h4>
+            <h6 class="telephone">Par téléphone au :</h6>
+           <a class="taillenum" href="tel:+0620763448"> 06.20.76.34.48</a>
+        </article>
+        
+        
+        
+        <article class=" bannierebleu">
+            <p class="texteblanc titreespace ">Une question, un avis, un besoin spécifique ? </p>
+           <br />
+       
+        <form method="post" action="traitement.php">
+           
+            <input class= "taillechamp " type="text" name="prenom" id="pseudo" placeholder="Prénom"/>
+            <input class= "taillechamp" type="text" name="nom" id="nom" placeholder="Nom" />
+               
+               
+            <input class= "taillechamp " type="email" name="email" id="email" placeholder="Email"/>
+            <input class= "taillechamp " type="tel" name="telephone" id="telephone" placeholder="Téléphone"/>
+      
+               
+               
+            <textarea class="message" name="message" id="message" placeholder="Ici écrivez votre message :" rows="10" cols="30" ></textarea> 
+                <br />
+            <input class="boutonbleu" type="submit" value="Envoyer"  />
+               
+        </form>     
+        </article>  
+                
+                            
+                
+         <article class="banniereagenda">
+         <form method="post" action="traitement.php">
+             <h3 class=" nongras titreespace">Vous préférez nous rencontrer ? </h3>
+            
+             <input class="taillechamp" type="text" name="prenom" id="pseudo" placeholder="Prénom"/>
+             <input class="taillechamp" type="text" name="nom" id="nom" placeholder="Nom"/>   
+             
+            <input class="taillechamp" type="email" name="email" id="email" placeholder="Email"/>
+            <input class="taillechamp" type="tel" name="telephone" id="telephone" placeholder="Téléphone"/>
+             
+             <br />
+            <p class="titreespace">Renseignez vos disponibilités</p>
+             
+              <iframe src="https://calendar.google.com/calendar/embed?src=contact.northweb%40gmail.com&ctz=Europe%2FParis" style="border: 0" width="300" height="300" frameborder="0" scrolling="no"></iframe>
+                <br /> 
+        </form>
+        </article>
+            
+            
+            
+       
+        
+        
+    </body>
+    
+    
+    
+    
+    <footer>
+         <hr />
+         <p class="text-center">Copyright &copy; 2019 North Web. Tous Droits Réservés</p>
+    </footer> 
+</html>
